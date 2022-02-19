@@ -35,4 +35,7 @@ func main() {
 	delete(statePopulations, "Texas")
 	fmt.Println(sp, "===", statePopulations)
 	// REMEMBER THAT IT AFFECTS THE ASSOGNED MAP/ARR/SLICE!!
+
+	// =========================EOF============================
+
 }

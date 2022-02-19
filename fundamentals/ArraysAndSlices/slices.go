@@ -29,4 +29,6 @@ func main() {
 	make_arr = append(make_arr, []int{1, 2, 3, 4}...)
 	fmt.Println(make_arr, len(make_arr), cap(make_arr)) // return [0, 0, 0]
 
+	// =========================EOF============================
+
 }

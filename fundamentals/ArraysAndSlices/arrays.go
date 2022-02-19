@@ -49,4 +49,6 @@ func main() {
 	fmt.Printf("Now length %v\n", len(arr_cap_change))
 	fmt.Printf("Now cap %v\n", cap(arr_cap_change))
 
+	// =========================EOF============================
+
 }
