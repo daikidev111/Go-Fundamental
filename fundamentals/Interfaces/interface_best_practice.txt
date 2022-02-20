@@ -1,0 +1,18 @@
+Rules:
+1. use many, small interfaces
+    - single method interfaces are some of the most powerful and flexible
+    - e.g. io.Writer(), io.Reader(), interface{}
+
+2. Do not export interfaces for types that will be consumed
+    - If you do not need to export the interface by urself or you do not
+    have specific reason to do it, then do not do it
+        - By avoiding this, it allows you as the consumer of that struct to define your own interface
+        that you can use for testing. 
+    - However, it is appropriate to export the concrete one
+        - e.g. DB
+    -However, Do export interfaces for types that will be used by package
+        - since go has implicit implementation of interfaces, you can go ahead and defer the 
+        creation of the interfaces until exactly when you need them 
+    
+    - Design functions and methods to receive interfaces whenerver possible
+        - accept those as interface types instead of the concrete types
