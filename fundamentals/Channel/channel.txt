@@ -7,3 +7,7 @@ Hence, it is the reason to use go channel that allows them to do in a expected e
 Two-way communication
 send go routine: make sure that receiving go routine is going to receive values before it attempts to use the value
 
+
+channles are used when you want to transfer data between two go routines
+
+

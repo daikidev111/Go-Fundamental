@@ -12,6 +12,7 @@ func factorial(num int) int {
 	} 
 	return num * factorial(num-1)
 }
+
 func main() {
 	pl("Factorial 4 = ", factorial(4))
 }
