@@ -1,0 +1,13 @@
+	// print format
+	// %d: Integer
+	// %c: char
+	// %f: float
+	// %t: boolean
+	// %s: string
+	// %o: base 8
+	// %x: base 16
+	// %v: guesses based on data type
+	// %T: type of supplied value
+	// %.2f: limit the number of decimal places
+	// %9.f: remove the decimal places
+	// %9f: 3.14 -> 3.140000

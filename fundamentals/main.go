@@ -8,7 +8,7 @@ import (
 )
 const version = "1.0.0"
 
-var pl = fmt.Println
+var pl = fmt.Println // creating an alias for fmt stmt
 
 func main() {
 

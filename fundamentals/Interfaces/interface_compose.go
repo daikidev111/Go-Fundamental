@@ -11,6 +11,7 @@ func main() {
 	wc.Close()
 }
 
+
 // Writer interface for writing into bytes
 type Writer interface {
 	Write([]byte) (int, error)

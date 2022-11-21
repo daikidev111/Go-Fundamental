@@ -8,7 +8,7 @@ func main() {
 
 // How to use variadic parameter
 // But it has to be one and at the end in the param
-func sum(values ...int) {
+func sum(values ...int) {  // can pass many values
 	fmt.Println(values) // shows that this parameter thing acts as a slice
 	result := 0
 	for _, v := range values {
