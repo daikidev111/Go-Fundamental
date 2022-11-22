@@ -13,6 +13,8 @@ var pl = fmt.Println
 /*
 	context is a way to add a timeout or cancellation to a goroutine
 	if it takes a long time to execute, it is a way to cancel the process
+	https://www.youtube.com/watch?v=h2RdcrMLQAo&list=PLZkzX19nK4JqaIpcDWxbYw2odU0ag5chI&index=4
+	https://www.youtube.com/watch?v=VkGQFFl66X4&list=PLZkzX19nK4JqaIpcDWxbYw2odU0ag5chI&index=1
 */
 
 func main() {
